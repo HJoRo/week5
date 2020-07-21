@@ -11,8 +11,8 @@ var harryPotter = {
         return this.price + " on " + this.seller;
     },
     learnMore : function (){
-     return this.title + ", " + this.genre + ". " + this.description;
-   }
+    return this.title + ", by " + this.author + ", " + this.genre + ". " + this.description;
+    },
 }
 //call functions
 console.log(harryPotter.buyNow());
