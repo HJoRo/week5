@@ -2,7 +2,7 @@
   "name": "week5",
   "version": "1.0.0",
   "description": "",
-  "main": "objects.js",
+  "main": "triangle.js",
   "directories": {
     "test": "test"
   },
