@@ -1,3 +1,3 @@
-module.exports = function (first, second){
-    return (first * second);
+module.exports = function (base, height){
+    return (base * height);
 }
