@@ -1,4 +1,4 @@
-var area = reqire('../triangle.js');
+var assert = reqire('../triangle.js');
 
 describe('Area', function (){
     it('should return 10 when first is 2 and second is 5', function(){
