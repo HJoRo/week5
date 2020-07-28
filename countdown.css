@@ -1,0 +1,24 @@
+html {
+    background-color: thistle;
+}
+.container {
+    margin-top: 10vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-style: dashed;
+    border-color: navy;
+    text-align: center;
+}
+.heading {
+    font-family: 'Pacifico', cursive;
+    font-size: 65px;
+    color: maroon;
+}
+.display {
+    margin: 5vw;
+    border-style: double;
+    border-width: 5px;
+    font-family: 'Staatliches';
+    font-size: 50px;
+    color: indigo;
+}
