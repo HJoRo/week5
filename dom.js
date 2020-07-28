@@ -23,8 +23,7 @@ child[1].className = "florida";
 
 //changing text of last item on list
 //i'm struggling with this part, i don't really understand the sibling properties
-var lastItem = document.getElementsById("last")[0].children;
-lastItem[11].nextElementSibling.textContent = "Ohio";
+document.getElementById("changeNext").nextElementSibling.textContent = "Ohio";
 
 //creating eventlistener
 //this works in codepen but not in liveserver, i don't know why
