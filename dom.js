@@ -13,11 +13,21 @@ for( var i = 0; i < z.length; i++ ) {
     z[i].style.color='firebrick';
 }
 //what i had before that wasn't working
-//document.getElementsByClassName('east').style.color = "darkgreen";
-//document.getElementsByClassName('sw').style.color = "peru";
-//document.getElementsByClassName('mw').style.color = "firebrick";
+//document.getElementById('east').style.color = "darkgreen";
+//document.getElementById('sw').style.color = "peru";
+//document.getElementById('mw').style.color = "firebrick";
 
 //changing class name
 var child = document.getElementsByClassName("states")[0].children;
 child[1].className = "florida";
 
+//changing text of last item on list
+//i'm struggling with this part, i don't really understand the sibling properties
+var lastItem = document.getElementsById("last")[0].children;
+lastItem[11].nextElementSibling.textContent = "Ohio";
+
+//creating eventlistener
+//this works in codepen but not in liveserver, i don't know why
+document.getElementById("hideHam").addEventListener("click", function(){
+    document.getElementById("hideMe").innerHTML = "";
+});
