@@ -18,6 +18,7 @@ html {
     margin: 5vw;
     border-style: double;
     border-width: 5px;
+    border-color: maroon;
     font-family: 'Staatliches';
     font-size: 50px;
     color: indigo;
