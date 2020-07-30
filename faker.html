@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Card</title>
+    <link rel="stylesheet" href="faker.css">
+</head>
+<!---put function in body tag to call--->
+<body onload="makeCard()">
+    <div class="heading">
+        <h2>Is this you?</h2>
+    </div>
+    <div class="container">
+        <img src="picture" alt="User Avatar" id="avatar">
+        <p id="name"></p>
+        <p id="phone"></p>
+        <p id="email"></p>
+    </div>
+    <div class="buttons">
+        <button id="yes" onclick="thatsMe()">
+            That's me!
+        </button>
+        <button id="no" onclick="makeCard()">
+            Not me!
+        </button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+    <script src="faking.js"></script>
+</body>
+</html>
